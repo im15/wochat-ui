@@ -32,7 +32,7 @@ const __answer = `
             return div.className = "layout-flex question", [
                 function () {
                     const div = createElement('div')
-                    return (div.className = "avatar", div.innerHTML = `<img src="../avatar00.png" width="30" alt="">`, div)
+                    return (div.className = "avatar", div.innerHTML = `<img src="avatar00.png" width="30" alt="">`, div)
                 }, function () {
                     const div = createElement('div')
                     return (div.innerHTML = `${__question}`, div)
@@ -52,7 +52,7 @@ const __answer = `
             return toggle = div, div.className = "layout-flex answer", [
                 function () {
                     const div = createElement('div')
-                    return div.className = "avatar", div.innerHTML = `<img src="../icon.png" width="30" alt="">`, div
+                    return div.className = "avatar", div.innerHTML = `<img src="avatar01.png" width="30" alt="">`, div
                 }, function () {
                     const div = createElement('div')
                     return div.innerHTML = `<article>${__answer}</article>`, div
